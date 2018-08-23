@@ -64,10 +64,7 @@ while True:                                                                     
                 url='http://google.com/search?q='+st
                 webbrowser.open(url)
                 v.Speak('Google Results for: '+str(st))
-            elif joke in message:
-                v.Speak("paani meri baat kyu nahi sunn raha?")
-                time.sleep(2)
-                v.Speak("kyunki voh berha hai")
+           
 
             elif acad in message:                                                           #what happens when acad keyword is recognized
 
